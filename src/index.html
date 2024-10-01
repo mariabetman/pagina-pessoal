@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+
+    <link rel="shortcut icon" type="imagex/png" href="./assets/images/profile-icon.ico">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <header class="menu">
+        <div id="menu__bar" class="menu__bar" onclick="menuOnClick()">
+            <div id="menu__barItem--1" class="menu__barItem menu__barItem--1"></div>
+            <div id="menu__barItem--2" class="menu__barItem menu__barItem--2"></div>
+            <div id="menu__barItem--3" class="menu__barItem menu__barItem--3"></div>
+        </div>
+        <nav id="menu__nav" class="menu__nav">
+            <ul class="menu__list">
+                <li class="menu__listItem"><a href="#sobreMim">Sobre mim</a></li>
+                <li class="menu__listItem"><a href="#interesses">Interesses</a></li>
+                <li class="menu__listItem"><a href="#disciplinas">Disciplinas cursadas</a></li>
+                <li class="menu__listItem"><a href="#links">Links</a></li>
+                <li class="menu__listItem"><a href="html_dict.html">Dicionário HTML</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <aside class="profile">
+                <img class="profile__image" src="./assets/images/profile-image.jpg" alt="Foto de perfil">
+                <p class="profile__text"><span class="profile__text--bold">Profissão:</span> Desenvolvedora Frontend</p>
+                <p class="profile__text"><span class="profile__text--bold">Curso:</span> Sistemas de Informação</p>
+            </aside>
+            <section class="content">
+                <h1 class="title">Maria Eduarda Betman Damazio Jaques</h1>
+                <section class="intro">
+                    <img class="intro__image" src="./assets/images/profile-image.jpg" alt="">
+                    <div class="intro__content">
+                        <p class="intro__text"><span class="intro__text--bold">Profissão:</span> Desenvolvedora Frontend</p>
+                        <p class="intro__text"><span class="intro__text--bold">Curso:</span> Sistemas de Informação</p>
+                    </div>
+                </section>
+                <section id="sobreMim">
+                    <h2 class="sobreMim__title">Sobre mim</h2>
+                    <p class="sobreMim__text">
+                        Sou estudante do 3º semestre de Sistemas de Informação na Universidade Federal de Santa Catarina (UFSC). Trabalho há 2 anos como desenvolvedora frontend, uma trajetória que comecei como jovem aprendiz e, atualmente, ocupo a posição de desenvolvedora júnior. Sou apaixonada por aprender coisas novas e estou sempre em busca de aprimorar meus conhecimentos. Tenho um perfil detalhista e me dedico ao máximo em tudo o que faço, garantindo sempre qualidade em minhas entregas.
+                    </p>
+                </section>
+                <section id="interesses">
+                    <h2>Interesses</h2>
+                    <p class="interesses__text">
+                        Sou apaixonada por tecnologia e estou sempre atualizada sobre novas ferramentas e tendências de desenvolvimento web. Sou entusiasta do aprendizado contínuo e frequentemente busco cursos online, workshops e certificações que possam me ajudar a crescer na minha carreira.
+                    </p>
+                    <p class="interesses__text">
+                    Quando não estou programando, gosto de ler livros e montar quebra-cabeças A música e a dança também fazem parte da minha vida, e amo estar em contato com a natureza.
+                    </p>
+                </section>
+                <section id="disciplinas">
+                    <h2>Disciplinas Cursadas</h2>
+                    <ul class="disciplinas__list">
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">CAD5240 -</span> Aspectos Comportamentais do Empreendedor</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">EGC5015 -</span> Teoria Geral de Sistemas</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">INE5601 -</span> Fundamentos Matemáticos da Informática</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">INE5602 -</span> Introdução à Informática</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">INE5603 -</span> Introdução à Programação Orientada a Objetos</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">CAD5103 -</span> Administração I</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">EGC5036 -</span> Marketing Pessoal e Empreendedorismo</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">INE5605 -</span> Desenvolvimento de Sistemas Orientados a Objetos I</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">INE5606 -</span> Probabilidade e Estatística</li>
+                        <li class="disciplinas__listItem"><span class="disciplinas__listITem--bold">INE5607 -</span> Organização e Arquitetura de Computadores</li>
+                    </ul>
+                </section>
+                <section id="links">
+                    <h2>Links</h2>
+                    <ul class="links__list">
+                        <li class="links__listItem"><a href="https://www.linkedin.com/in/maria-eduarda-betman-damazio-jaques-5839031b0" target="_blank">Linkedin</a></li>
+                        <li class="links__listItem"><a href="https://github.com/mariabetman" target="_blank">GitHub</a></li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+    </main>
+    <foote x    r class="footer">
+        <address class="contact">
+            <p>Contato: <a href="mailto:maria.betman02@gmail.com" target="_blank">maria.betman03@gmail.com</a></p>
+        </address>
+        <ul class="social__list">
+            <li class="social__listItem"><a href="https://www.linkedin.com/in/maria-eduarda-betman-damazio-jaques-5839031b0" target="_blank"><img class="social__listIcon" src="./assets/images/linkedin-icon.svg" alt="Ícone do Linkedin"></a></li>
+            <li class="social__listItem"><a href="https://github.com/mariabetman" target="_blank"><img class="social__listIcon" src="./assets/images/github-icon.svg" alt="Ícone do GitHub"></a></li>
+        </ul>
+        <nav class="footer__nav"></nav>
+            <ul class="footer__list">
+                <li class="footer__listItem"><a href="#sobreMim">Sobre mim</a></li>
+                <li class="footer__listItem"><a href="#interesses">Interesses</a></li>
+                <li class="footer__listItem"><a href="#disciplinas">Disciplinas cursadas</a></li>
+                <li class="footer__listItem"><a href="#links">Links</a></li>
+                <li class="footer__listItem"><a href="#html_dict.html">Dicionário HTML</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu__bar").classList.toggle("open");
+            document.getElementById("menu__nav").classList.toggle("open");
+        }
+    </script>
+</body>
+</html>
